@@ -9,6 +9,12 @@ api = Api(app)
 
 # A List of Dicts to store all of the books
 books = [{
+                 "bookTitle": "Updated app" ,
+                 "bookImage": "https://itbook.store/img/books/9781784397937.png",
+                 "bookDescription": "This is how I updated the app",
+                 "bookAuthors" : "Maya"
+    },
+    {
         "bookTitle": "Learning Docker" ,
         "bookImage": "https://itbook.store/img/books/9781784397937.png",
         "bookDescription": "Docker is a next-generation platform for simplifying application containerization life-cycle. Docker allows you to create a robust and resilient environment in which you can generate portable, composable, scalable, and stable application containers.",
@@ -25,6 +31,12 @@ books = [{
         "bookImage": "https://itbook.store/img/books/9781491929124.png",
         "bookDescription": "The overwhelming majority of a software system's lifespan is spent in use, not in design or implementation. So, why does conventional wisdom insist that software engineers focus primarily on the design and development of large-scale computing systems?",
         "bookAuthors" : "Betsy Beyer, Chris Jones, Jennifer Petoff"
+    },
+    {
+        "bookTitle": "Achieving DevOps" ,
+        "bookImage": "https://itbook.store/img/books/9781484243879.png",
+        "bookDescription": "A Novel About Delivering the Best of Agile, DevOps, and Microservices",
+        "bookAuthors" : "Dave Harrison, Knox Lively"
     },
 ]
 
